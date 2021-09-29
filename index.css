@@ -23,7 +23,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -40,6 +40,11 @@ body {
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
+    margin: 3% 0;
+}
+
+h2 {
+    margin: 3%;
 }
 
 section {
@@ -58,32 +63,37 @@ nav {
 
 nav a {
     display: inline-block;
-    width: 12%;
+    width: 13%;
     padding: .5% 0;
     border-radius: 13px;
     text-align: center;
     color: #fff;
     line-height: 1.2;
+    margin-top: .5%
 }
 
 .orange {
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 .blue {
     background-color: #5ED3EB;
-    margin: 0 20%;
+    margin: 0 13%;
 }
 
 .yellow {
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 13%;
 }
 
 /*top section styles*/
 .top {
     position: relative;
+}
+
+.top p {
+    padding: 0 20%;
 }
 
 .left, .right{
@@ -98,14 +108,14 @@ nav a {
 .left img {
     border-radius: 50%;
     width: 80%;
+    margin-left: 28%
 }
 
 .right {
     width: 55%;
-    margin-bottom: ;
     margin-left: 5%;
+    top: 13%;
     position: absolute;
-    top: 45%;
 }
 
 .mainBody {
@@ -117,7 +127,7 @@ nav a {
 
 .mainBody p {
     text-align: center;
-    font-size: 2rem; /* edit this */
+    font-size: 1.7rem; /* edit this */
     padding: 1% 2%;
 }
 
@@ -131,13 +141,14 @@ nav a {
 
 .icons img {
     width: 10%;
-    margin: 2% 45% 0;
+    margin: 2% 45% .5%;
 }
 
 .icons p {
     text-align: center;
-    font-size: 1.3rem;
-    margin: 0 40% 0;
+    font-size: 1.2rem;
+    margin: 0 38% 2.5%;
+    line-height: 1.2;
 }
 
 .imageContainer {
@@ -152,5 +163,5 @@ nav a {
 
 footer {
     background-color: #F9E7DC;
-    padding: 0;
+    padding: 1% 0;
 }
