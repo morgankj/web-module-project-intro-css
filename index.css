@@ -13,6 +13,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	margin: 0;
 	/* border: 0; */
 	}
+
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
@@ -22,7 +23,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+/*    border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -57,11 +58,12 @@ nav {
 
 nav a {
     display: inline-block;
-    width: 10%;
-    padding: 1% 0;
-    border-radius: 10px;
+    width: 12%;
+    padding: .5% 0;
+    border-radius: 13px;
     text-align: center;
     color: #fff;
+    line-height: 1.2;
 }
 
 .orange {
@@ -71,7 +73,7 @@ nav a {
 
 .blue {
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 20%;
 }
 
 .yellow {
@@ -103,4 +105,36 @@ nav a {
     margin-left: 5%;
     position: absolute;
     top: 45%;
+}
+
+.mainBody {
+    color: white;
+    background-color: #DDB9A3;
+    margin: 0 3%;
+    padding: 0;
+}
+
+.mainBody p {
+    text-align: center;
+    font-size: 2rem; /* edit this */
+    padding: 1% 2%;
+}
+
+.icons {
+    padding: 0;
+}
+
+.icons .bold {
+    font-weight: bold;
+}
+
+.icons img {
+    width: 10%;
+    margin: 2% 45% 0;
+}
+
+.icons p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 40% 0;
 }
