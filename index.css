@@ -23,7 +23,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-/*    border:1px solid grey; */
+    border:1px solid grey;
 }
 
 /*General Styles*/
@@ -102,6 +102,7 @@ nav a {
 
 .right {
     width: 55%;
+    margin-bottom: ;
     margin-left: 5%;
     position: absolute;
     top: 45%;
@@ -137,4 +138,19 @@ nav a {
     text-align: center;
     font-size: 1.3rem;
     margin: 0 40% 0;
+}
+
+.imageContainer {
+    padding: 5% 0 0;
+}
+
+.image {
+    height: 25vh;
+    background-image: url(assets/footer_img.jpg);
+    background-position: 0vh -7vh;
+}
+
+footer {
+    background-color: #F9E7DC;
+    padding: 0;
 }
